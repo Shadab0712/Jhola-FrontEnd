@@ -1,0 +1,45 @@
+/* Navigator.css */
+
+/* Reset default margin and padding */
+body,
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the navbar */
+.navbar {
+    display: flex;
+    justify-content: flex-end;
+    /* Horizontally align to the right */
+    background-color: darkseagreen;
+    /* Background color for the navbar */
+    padding: 10px;
+    /* Add some padding to space out the links */
+}
+
+/* Style the navigation links */
+.navbar ul {
+    list-style: none;
+    /* Remove default list bullet points */
+    display: flex;
+    /* Make the list items flex containers */
+}
+
+.navbar li {
+    margin-right: 20px;
+    /* Add space between links */
+}
+
+.navbar a {
+    color: black;
+    /* Text color */
+    text-decoration: none;
+    /* Remove underline */
+}
+
+/* Style the links on hover */
+.navbar a:hover {
+    text-decoration: underline;
+    /* Underline on hover */
+}
